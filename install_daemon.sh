@@ -1,0 +1,2 @@
+yes | cp ./com.custom.safebackup_usb.plist /Library/LaunchDaemons/com.custom.safebackup_usb.plist
+launchctl unload -w /Library/LaunchDaemons/com.custom.safebackup_usb.plist && launchctl load -w /Library/LaunchDaemons/com.custom.safebackup_usb.plist
